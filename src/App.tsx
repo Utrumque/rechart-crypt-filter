@@ -1,8 +1,12 @@
 import "./App.css"
-import { Schedule } from "./components/Schedule"
+import { ChartGas } from "./components/ChartGas"
 
 function App() {
-	return <Schedule />
+	return (
+		<>
+			<ChartGas />
+		</>
+	)
 }
 
 export default App
